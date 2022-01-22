@@ -1,0 +1,172 @@
+.direccion-cambios p{
+    line-height: 1ch;
+}
+
+.direccion-cambios h2{
+    
+}
+
+div.direccion-cambios {
+
+}
+
+h3.direccion-cambios {
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#contacto {
+
+}
+
+/* Displays */
+
+.ejemplo-display-span {
+    display: inline;
+    background-color: red;
+}
+
+.ejemplo-display-div {
+    display: inline-block;
+    background-color: red;
+}
+
+/* Floats */
+
+.ejemplo-floats1 {
+    display: inline-block;
+    background-color: red;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.ejemplo-floats1 p {
+    width: 50%;
+    float: left;
+}
+
+.ejemplo-floats2 {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.ejemplo-floats2 p {
+    float: right;
+    width: 50%;
+}
+
+.ejemplo-floats3 {
+    overflow: hidden;
+    float: left;
+}
+
+.ejemplo-floats3 p {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    font-size: 19px;
+}
+
+.ejemplo-floats4 {
+    background-color: blue;
+    width: 95%;
+    height: 300px;
+}
+
+.ejemplo-floats4 div img {
+    width: 49%;
+    float: left;
+}
+
+.ejemplo-floats4 div p {
+    width: 49%;
+    float: right;
+}
+
+#pastor-aleman {
+    width: 50%;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.ejemplo-position {
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.ejemplo-position span {
+    background-color: red;
+    position: absolute;
+}
+
+/* Estilos para listas */
+
+.ejemplo-estilos-listas {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ejemplo-estilos-listas li {
+    display: inline;
+    padding: 10px;
+}
+
+
+/* .ejemplo-floats2 {
+    display: inline-block;
+    width: 50%;
+    background-color: blue;
+    float: right;
+} */
+
+/*
+font-size: px, inch, %;
+font-weight: bold;
+font-sytle: italic;
+text-decoration: underline, line-through;
+line-height: 1.1, %, px, inch;
+
+overflow: visible, hidden, auto, scroll;
+position: absolute, relative;
+
+list-style-type: none, disc, upper-latin, square;
+list-style-position: inside, outside;
+
+border-width: 5px;
+border-style: solid, dotted, dashed;
+border-color: black;
+border-radius: 50px;
+
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+
+border-top-width: 5px;
+border-right-width: 5px;
+border-bottom-width: 5px;
+border-left-width: 5px;
+
+border-shadow: X Y difuminado color;
+
+
+border: 5px solid black;
+
+
+
+- Selectores avanzados:
+
+a:hover = Cuando se pasa el raton por encima del enlace.
+
+a:active = Cuando se esta apretando el enlace.
+
+a:visited = Cuando se ha visitado el enlace.
+
+a:focus = Casi similar a hover.
+*/
